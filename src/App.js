@@ -4,9 +4,13 @@ import Hero from './Components/Hero'
 
 function App() {
   return (
-    <main style={{background: "var(--bgcolor)"}}>
-        <Hero/>
-    </main>
+    <html>
+      <head></head>
+      <main class=" bg-gray-300">
+          <Hero/>
+      </main>
+    </html>
+
   );
 }
 
