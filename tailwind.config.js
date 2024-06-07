@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/Components/Hero.js"],
+  content: ["./src/App.js","./src/Components/Hero.js","./src/Components/aboutme.js"],
   theme: {
     extend: {
       fontFamily: {
-        prim: "Markazi Text",
+        prim: "Markazi Text", 
         secon: "Karla",
       },
       width: {
